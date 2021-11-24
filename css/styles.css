@@ -207,7 +207,7 @@ img {
 /* ----------------------------hero--------------------------------- */
 .section-hero {
     background-color: var(--main-bg-color);
-    min-width: 1600px;
+    max-width: 1600px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
