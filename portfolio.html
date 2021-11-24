@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -31,9 +31,17 @@
                     <li class="header-nav-item"><a class="header-link link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="header-contact">
-                <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <div class="header-contact connect">
+                <a class="header-mail link" href="mailto:info@devstudio.com">
+                    <svg class="header-social-icon" wight="16" height="12">
+                        <use href="./img/icons.svg#icon-email"></use>
+                    </svg>
+                    info@devstudio.com</a>
+                <a class="header-tel link" href="tel:+380961111111">
+                    <svg class="header-social-icons" wight="10" height="16">
+                        <use href="./img/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a>
             </div>
         </div>
     </header>
@@ -130,22 +138,59 @@
     </main>
     <footer class="footer">
         <div class="container">
-                <a class="footer-link link" href=""><span class="footer-logo">Web</span><span
-                        class="footer-logotyp">Studio</span></a>
-            <address class="address">
-                <ul class="footer-list list">
-                    <li class="footer-item">
-                        <a class="footer-nav-link link" href="https://goo.gl/maps/pQCsTkdVdrUKWPSq7" target="_blank"
-                            rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+            <div class="footer-left">
+                <div class="footer-nav-logo">
+                    <a class="footer-link link" href=""><span class="footer-logo">Web</span><span
+                            class="footer-logotyp">Studio</span></a>
+                </div>
+                <address class="address">
+                    <ul class="footer-list list">
+                        <li class="footer-item">
+                            <a class="footer-nav-link link" href="https://goo.gl/maps/pQCsTkdVdrUKWPSq7" target="_blank"
+                                rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-nav">
+                <h3 class="footer-title">присоединяйтесь</h3>
+                <ul class="footer-social-list list">
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="footer-item">
-                        <a class="footer-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="footer-item">
-                        <a class="footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
