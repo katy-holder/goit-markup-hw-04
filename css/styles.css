@@ -4,6 +4,7 @@
     --main-btn-color: #FFFFFF;
     --main-bg-color: #2F303A;
     --main-hover-color: #2196F3;
+    --main-color-icon: #AFB1B8;
 }
 
 body {
@@ -157,16 +158,6 @@ img {
     color: var(--main-text-color);
 }
 
-/* .header-mail:hover,
-.header-mail:focus {
-    color: var(--main-hover-color);
-}
-
-.header-tel:hover,
-.header-tel:focus {
-    color: var(--main-hover-color);
-} */
-
 .header-mail,
 .header-tel {
     display: flex;
@@ -217,6 +208,7 @@ img {
     background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -307,7 +299,7 @@ img {
 .about-bg-icon {
     display: flex;
     justify-content: center;
-    padding: 25px 102px;
+    align-items: center;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
@@ -375,9 +367,9 @@ img {
     flex-basis: calc(100% / 4 - 30px);
     margin-right: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px solid var(--main-text-color);
-    border-left: 1px solid var(--main-text-color);
-    border-right: 1px solid var(--main-text-color);
+    border-bottom: 1px solid var(--main-color-icon);
+    border-left: 1px solid var(--main-color-icon);
+    border-right: 1px solid var(--main-color-icon);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--main-btn-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -433,7 +425,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #AFB1B8;
+    color: var(--main-color-icon);
 }
 
 .team-social-icon {
@@ -468,7 +460,8 @@ img {
 .client-item {
     width: 170px;
     height: 92px;
-    border: 1px solid var(--main-text-color);
+    border: 1px solid var(--main-color-icon);
+    border-radius: 2px;
     margin-left: 30px;
 }
 
@@ -482,7 +475,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--main-text-color);
+    color: var(--main-color-icon);
 }
 
 .client-social-icon {
@@ -522,7 +515,7 @@ img {
 }
 
 .footer-item:last-child {
-    padding-bottom: 20px;
+    padding-bottom: 0;
 }
 
 .footer-logo {
